@@ -46,36 +46,12 @@ The project utilizes the following Python libraries:
 
 Make sure to install these libraries before running the scripts.
 
-## Project Structure
 
-```plaintext
-Signal-Processing-with-Python/
-│
-├── scripts/
-│   ├── script1.py
-│   ├── script2.py
-│   └── ...
-│
-├── visualization/
-│   ├── pyqt5_visualizer.py
-│   └── ...
-│
-└── pngs/
-    ├── 2d_spectogram.png
-    ├── 3D_spectrogram_fft.png
-    ├── 3d_spectrogram.png
-    ├── Chromagram.png
-    ├── MFCC Delta Coefficient.png
-    ├── MFCC.png
-    ├── Power spectrum.png
-    ├── Tonnetz.png
-    ├── Waveform with Beats.png
-    └── Waveform.png
-```
 
 ## Graphs
 
-- **2d_spectogram.png:** A two-dimensional representation of the frequency content of the audio signal over time.
+- ![Logo](pngs/2d_spectogram.png)
+ A two-dimensional representation of the frequency content of the audio signal over time.
 - **3D_spectrogram_fft.png:** A three-dimensional representation of the spectrogram with emphasis on the Fast Fourier Transform (FFT).
 - **3d_spectrogram.png:** A three-dimensional visualization of the frequency content of the audio signal.
 - **Chromagram.png:** A representation of the pitch content of the audio signal.
