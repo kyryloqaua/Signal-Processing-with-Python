@@ -68,7 +68,7 @@ A subpart of this project involves a PyQt5 visualization using pyqtgraph. The `s
 ![Logo](pngs/2d_spectogram.png)
  A two-dimensional representation of the frequency content of the audio signal over time.
 - **3D_spectrogram_nfft**
-![Logo](pngs/3D_spectrogram.png)
+![Logo](pngs/3D_spectrogram_fft.png)
  A three-dimensional representation of the spectrogram with emphasis on the Fast Fourier Transform (FFT).
 - **3d_spectrogram** A three-dimensional visualization of the frequency content of the audio signal.
 ![Logo](pngs/3d_spectrogram.png)
