@@ -9,29 +9,14 @@ This project focuses on signal processing using Python, particularly analyzing t
 - [Installation](#installation)
 - [Libraries Used](#libraries-used)
 - [Theoretical Background](#theoretical-background)
-- [Graphs](#graphs)
   - [Sound Processing](#sound-processing)
   - [Signals](#signals)
   - [Frequency Analysis](#frequency-analysis)
   - [FFT (Fast Fourier Transform)](#fft-fast-fourier-transform)
   - [Spectrogram](#spectrogram)
   - [Harmonic and Percussive Components](#harmonic-and-percussive-components)
+- [Graphs](#graphs)
 - [PyQT5 Visualization](#pyqt5-visualization)
-
-## Installation
-
-Clone the repository to your local machine:
-
-```bash
-git clone https://github.com/your-username/Signal-Processing-with-Python.git
-cd Signal-Processing-with-Python
-```
-
-Install the required dependencies:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## Libraries Used
 
@@ -87,7 +72,7 @@ A subpart of this project involves a PyQt5 visualization using pyqtgraph. The `s
  A three-dimensional representation of the spectrogram with emphasis on the Fast Fourier Transform (FFT).
 - **3d_spectrogram** A three-dimensional visualization of the frequency content of the audio signal.
 ![Logo](pngs/3d_spectrogram.png)
-- **Chromagram.png** 
+- **Chromagram** 
 ![Logo](pngs/Chromagram.png)
 A representation of the pitch content of the audio signal.
 - **MFCC Delta Coefficient** 
