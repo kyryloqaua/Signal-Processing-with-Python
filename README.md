@@ -8,8 +8,8 @@ This project focuses on signal processing using Python, particularly analyzing t
 
 - [Installation](#installation)
 - [Libraries Used](#libraries-used)
-- [Graphs](#graphs)
 - [Theoretical Background](#theoretical-background)
+- [Graphs](#graphs)
   - [Sound Processing](#sound-processing)
   - [Signals](#signals)
   - [Frequency Analysis](#frequency-analysis)
@@ -45,40 +45,6 @@ The project utilizes the following Python libraries:
 
 Make sure to install these libraries before running the scripts.
 
-
-
-## Graphs
-
-- **2D_spectrogram**
-![Logo](pngs/2d_spectogram.png)
- A two-dimensional representation of the frequency content of the audio signal over time.
-- **3D_spectrogram_fft.png:**
-![Logo](pngs/3D_spectrogram.png)
- A three-dimensional representation of the spectrogram with emphasis on the Fast Fourier Transform (FFT).
-- **3d_spectrogram.png:** A three-dimensional visualization of the frequency content of the audio signal.
-![Logo](pngs/3d_spectrogram.png)
-- **Chromagram.png:** 
-![Logo](pngs/Chromagram.png)
-A representation of the pitch content of the audio signal.
-- **MFCC Delta Coefficient.png:** 
-![Logo](<pngs/MFCC Delta Coeficient.png>)
-Mel-frequency cepstral coefficients (MFCC) delta coefficient visualization.
-- **MFCC.png:** 
-![Logo](pngs/MFCC.png)
-Visualization of Mel-frequency cepstral coefficients, providing information about the audio's spectral characteristics.
-- **Power spectrum.png:** 
-![Logo](<pngs/Power spectrum.png>)
-Displaying the distribution of power in the frequency spectrum.
-- **Tonnetz.png:** 
-![Logo](pngs/Tonnetz.png)
-Visualization of tonnetz features, capturing harmonic relationships in the audio signal.
-- **Waveform with Beats.png:**
-![Logo](<pngs/Waveform with Beats.png>)
- Audio waveform with beats highlighted, showcasing rhythmic components.
-- **Waveform.png:**
-![Logo](pngs/Waveform.png)
- Standard representation of the audio signal waveform.
-
 ## Theoretical Background
 
 ### Sound Processing
@@ -108,3 +74,38 @@ Harmonic components represent pitched elements, while percussive components capt
 ## PyQT5 Visualization
 
 A subpart of this project involves a PyQt5 visualization using pyqtgraph. The `step_func_3d_visualization.py` script creates an interactive 3D plot with evolving step functions. This visualization provides a dynamic representation of the audio signal's characteristics.
+
+
+
+## Graphs
+
+- **2D_spectrogram**
+![Logo](pngs/2d_spectogram.png)
+ A two-dimensional representation of the frequency content of the audio signal over time.
+- **3D_spectrogram_nfft**
+![Logo](pngs/3D_spectrogram.png)
+ A three-dimensional representation of the spectrogram with emphasis on the Fast Fourier Transform (FFT).
+- **3d_spectrogram** A three-dimensional visualization of the frequency content of the audio signal.
+![Logo](pngs/3d_spectrogram.png)
+- **Chromagram.png** 
+![Logo](pngs/Chromagram.png)
+A representation of the pitch content of the audio signal.
+- **MFCC Delta Coefficient** 
+![Logo](<pngs/MFCC Delta Coeficient.png>)
+Mel-frequency cepstral coefficients (MFCC) delta coefficient visualization.
+- **MFCC** 
+![Logo](pngs/MFCC.png)
+Visualization of Mel-frequency cepstral coefficients, providing information about the audio's spectral characteristics.
+- **Power Spectrum** 
+![Logo](<pngs/Power spectrum.png>)
+Displaying the distribution of power in the frequency spectrum.
+- **Tonnetz** 
+![Logo](pngs/Tonnetz.png)
+Visualization of tonnetz features, capturing harmonic relationships in the audio signal.
+- **Waveform with Beats**
+![Logo](<pngs/Waveform with Beats.png>)
+ Audio waveform with beats highlighted, showcasing rhythmic components.
+- **Waveform**
+![Logo](pngs/Waveform.png)
+ Standard representation of the audio signal waveform.
+
